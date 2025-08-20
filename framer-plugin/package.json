@@ -1,0 +1,24 @@
+{
+  "name": "alt-text-generator",
+  "version": "1.0.0",
+  "description": "Generate alt text for images using OpenAI Vision API",
+  "main": "plugin.tsx",
+  "framer": {
+    "id": "com.yourcompany.alt-text-generator",
+    "displayName": "Alt Text Generator",
+    "description": "Automatically generate alt text for images using AI",
+    "icon": "🖼️",
+    "permissions": [
+      "read",
+      "write"
+    ]
+  },
+  "dependencies": {
+    "framer-plugin": "^1.0.0",
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "typescript": "^5.0.0"
+  }
+}
