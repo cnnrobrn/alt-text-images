@@ -1,0 +1,9 @@
+{
+  "id": "123456",
+  "name": "Alt Text Generator",
+  "displayName": "Alt Text Generator",
+  "description": "Generate alt text for images using OpenAI",
+  "icon": "🖼️",
+  "permissions": ["read", "write"],
+  "entrypoint": "http://localhost:5174/plugin.mjs"
+}

@@ -173,6 +173,8 @@ Generate alt text for multiple images
 - `PORT`: Port for the API server (default: 5000)
 - `FRAMER_SITE_URL`: URL of your Framer site (for standalone script)
 - `PAGES_TO_CHECK`: Comma-separated list of pages to check
+- `RATE_LIMIT_DELAY`: Seconds to wait between API calls (default: 2.0, increase if hitting rate limits)
+- `BATCH_SIZE`: Maximum number of images to process in one run (default: 0 = all images)
 
 ### Framer Plugin Settings
 
